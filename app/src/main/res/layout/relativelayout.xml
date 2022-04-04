@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayoutView"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/login_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
         android:text="로그인"
         android:textAlignment="viewStart"
-        android:textSize="30sp"
-        android:layout_marginTop="80dp"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/enterLogin"
+        android:id="@+id/id_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="아이디 "
-        android:layout_marginTop="50dp"
+        android:layout_below="@+id/login_title_text_view"
         android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="5dp"
-        android:layout_below="@+id/login"/>
+        android:ems="10"
+        android:hint="아이디 "
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/enterPassword"
+        android:id="@+id/password_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/enterLogin"
+        android:layout_below="@+id/id_edit_text"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:ems="10"
@@ -42,7 +43,7 @@
         android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/enterPassword"
+        android:layout_below="@+id/password_edit_text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:text="Button" />
@@ -86,8 +87,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/googleButton"
-        android:layout_toLeftOf="@+id/findPasswordButton"
         android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/findPasswordButton"
         android:background="#00FFFFFF"
         android:text="회원가입"
         android:textColor="#000000" />
@@ -96,12 +97,12 @@
         android:id="@+id/findPasswordButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/kakaoButton"
+        android:layout_alignLeft="@id/kakaoButton"
+        android:layout_marginTop="30dp"
         android:background="#00786060"
         android:text="비밀번호 찾기"
-        android:textColor="#000000"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/kakaoButton"
-        android:layout_alignLeft="@id/kakaoButton" />
+        android:textColor="#000000" />
 
 
 </RelativeLayout>
