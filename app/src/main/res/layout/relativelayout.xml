@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/relativeLayoutView"
+    android:id="@+id/relativelayout_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -40,7 +40,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password_edit_text"
@@ -49,22 +49,22 @@
         android:text="Button" />
 
     <ImageButton
-        android:id="@+id/googleButton"
+        android:id="@+id/google_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/loginButton"
+        android:layout_below="@+id/login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:layout_toLeftOf="@id/naverButton"
+        android:layout_toLeftOf="@id/naver_button"
         android:background="#00FFFFFF"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/ic_logo_google" />
 
     <ImageButton
-        android:id="@+id/naverButton"
+        android:id="@+id/naver_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_below="@id/loginButton"
+        android:layout_below="@id/login_button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:background="#00FFFFFF"
@@ -72,33 +72,33 @@
         app:srcCompat="@drawable/ic_logo_naver" />
 
     <ImageButton
-        android:id="@+id/kakaoButton"
+        android:id="@+id/kakao_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_below="@id/loginButton"
+        android:layout_below="@id/login_button"
         android:layout_marginTop="40dp"
-        android:layout_toRightOf="@id/naverButton"
+        android:layout_toRightOf="@id/naver_button"
         android:background="#00FFFFFF"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/ic_logo_kakao" />
 
     <Button
-        android:id="@+id/signUpButton"
+        android:id="@+id/signup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/googleButton"
+        android:layout_below="@id/google_button"
         android:layout_marginTop="30dp"
-        android:layout_toLeftOf="@+id/findPasswordButton"
+        android:layout_toLeftOf="@+id/find_password_button"
         android:background="#00FFFFFF"
         android:text="회원가입"
         android:textColor="#000000" />
 
     <Button
-        android:id="@+id/findPasswordButton"
+        android:id="@+id/find_password_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/kakaoButton"
-        android:layout_alignLeft="@id/kakaoButton"
+        android:layout_below="@+id/kakao_button"
+        android:layout_alignLeft="@id/kakao_button"
         android:layout_marginTop="30dp"
         android:background="#00786060"
         android:text="비밀번호 찾기"
