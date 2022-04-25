@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">bcsdAssign3</string>
-    <string name="login">로그인</string>
-    <string name="password">비밀번호</string>
-    <string name="id">아이디</string>
-    <string name="SignUp">회원가입</string>
-    <string name="FindPassword">비밀번호 찾기</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="id">id</string>
+    <string name="SignUp">sign up</string>
+    <string name="FindPassword">find password</string>
 </resources>

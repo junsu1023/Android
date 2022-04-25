@@ -1,5 +1,6 @@
 package com.example.bcsdassign3
 
+import android.content.pm.ActivityInfo
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
